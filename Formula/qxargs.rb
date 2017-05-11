@@ -1,18 +1,14 @@
-# Documentation: http://docs.brew.sh/Formula-Cookbook.html
-#                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class Qxargs < Formula
   desc "Call xargs quickly"
   homepage "https://github.com/iwat/qxargs"
-  url "https://github.com/iwat/qxargs/archive/1.0.0.tar.gz"
-  sha256 "47029c5c4bfd823f7c303adae56db0ad8e1dcbec66ad2ba25959b59c90d1cdc7"
+  url "https://github.com/iwat/qxargs/archive/1.1.0.tar.gz"
+  sha256 "d60ca5bfe8f6863782cc4d71e817e1562b5352bd6a660d592f834411967dd318"
 
   bottle do
-    root_url "https://github.com/iwat/qxargs/releases/download/1.0.0"
+    root_url "https://github.com/iwat/qxargs/releases/download/1.1.0"
 
     cellar :any_skip_relocation
-    sha256 "40088a1122ab7c86b71d2e18e220ff78aa657e30a3b59c7aa112be04130c1be5" => :sierra
+    sha256 "8a0a3ab529174112e25999290916b860bc2a5be0b7df34a14558c3276ecf0ca8" => :sierra
   end
 
   depends_on "go" => :build
