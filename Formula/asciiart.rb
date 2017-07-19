@@ -1,14 +1,14 @@
 class Asciiart < Formula
   desc "ASCII Art"
   homepage "https://github.com/iwat/asciiart"
-  url "https://github.com/iwat/asciiart/archive/1.0.0.tar.gz"
-  sha256 "a757b88b1b0ee5327d99f6d922013012baa812466185418b702ed25a703bdd61"
+  url "https://github.com/iwat/asciiart/archive/1.0.1.tar.gz"
+  sha256 "13919e1f790e429d769ca468e5e4fe7f92baecbe598013f2baefd51c48e4b972"
 
   bottle do
-    root_url "https://github.com/iwat/asciiart/releases/download/1.0.0"
+    root_url "https://github.com/iwat/asciiart/releases/download/1.0.1"
 
     cellar :any_skip_relocation
-    sha256 "7a61c925a37a609d728b2e23d08a98b0bf20319cc75347d2831be8ef5ea37915" => :sierra
+    sha256 "ba64b88043d59924e763eceb3fe7b66783b8047833ae89c1138f1abfec8f4941" => :sierra
   end
 
   depends_on "go" => :build
